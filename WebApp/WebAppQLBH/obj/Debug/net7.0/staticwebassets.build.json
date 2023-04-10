@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2ooOHDKxkRIglSfBHkO0ei0XyVMEPJ82AGignxwb18Y=",
+  "Hash": "76D95iVxkSLWsBpV41yuKFE29OrBiez46MQJQvBjodE=",
   "Source": "WebAppQLBH",
   "BasePath": "_content/WebAppQLBH",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebAppQLBH.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "WebAppQLBH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\",
+      "BasePath": "_content/WebAppQLBH",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\css\\site.css",

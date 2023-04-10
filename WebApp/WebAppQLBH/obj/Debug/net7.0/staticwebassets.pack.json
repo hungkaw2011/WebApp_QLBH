@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WebAppQLBH.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
       "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

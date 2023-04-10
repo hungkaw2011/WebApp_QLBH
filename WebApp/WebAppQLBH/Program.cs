@@ -9,6 +9,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options=>options.UseSqlServe
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
 
+//Tính năng Razor Runtime Compilation cho phép bạn chỉnh sửa trang Razor Pages mà không cần phải khởi động lại ứng dụng => (lag).
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

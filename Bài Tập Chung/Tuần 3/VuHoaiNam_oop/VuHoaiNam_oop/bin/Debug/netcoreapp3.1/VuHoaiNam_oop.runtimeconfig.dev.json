@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\vuvu4\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\vuvu4\\.nuget\\packages"
+    ]
+  }
+}

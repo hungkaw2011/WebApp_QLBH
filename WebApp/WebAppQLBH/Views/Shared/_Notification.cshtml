@@ -1,0 +1,13 @@
+﻿@if (TempData["success"] != null)
+{
+    @*    
+        Toastr:Library js cung cấp các thông báo đẹp mắt
+    jQuery được thêm vào để hỗ trợ cho việc sử dụng thư viện toastr.
+    js.Toastr.js sử dụng jQuery như một phần của chức năng của nó để chọn phần tử HTML trên trang web và thay đổi nội dung của chúng.*@
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+        toastr.success('@TempData["success"]');
+    </script>
+}

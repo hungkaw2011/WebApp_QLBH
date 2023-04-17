@@ -1,16 +1,23 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebAppQLBH.Data;
+using Microsoft.Extensions.Options;
+using System.Configuration;
+using WebApp.DataAccess;
+using WebApp.DataAccess.Repository;
+using WebApp.DataAccess.Repository.IRepository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<ApplicationDbContext>(options=>options.UseSqlServer(
-    builder.Configuration.GetConnectionString("DefaultConnection")
-    ));
 
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+        b => b.MigrationsAssembly("WebAppQLBH")));
+
+//đăng ký một ICategoryRepository và CategoryRepository cho dependency injection(design pattern).
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 //Tính năng Razor Runtime Compilation cho phép bạn chỉnh sửa trang Razor Pages mà không cần phải khởi động lại ứng dụng => (lag).
-builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+//builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 var app = builder.Build();
 
@@ -31,6 +38,6 @@ app.UseAuthorization(); // thực hiện xác thực và phân quyền trên cá
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

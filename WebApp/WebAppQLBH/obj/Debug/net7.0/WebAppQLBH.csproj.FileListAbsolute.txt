@@ -337,7 +337,6 @@ C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Micro
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
@@ -351,8 +350,6 @@ C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Micro
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
@@ -572,3 +569,10 @@ C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\runti
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\obj\Debug\net7.0\scopedcss\projectbundle\WebAppQLBH.bundle.scp.css
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\WebApp.DataAccess.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\WebApp.Models.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\WebApp.DataAccess.pdb
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\WebApp.Models.pdb
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\System.CodeDom.dll

@@ -1,0 +1,53 @@
+﻿@model List<WebApp.Models.Category>
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container p-3">
+    <div class="row pt-6">
+        <div class="col-6">
+            <h2 class="text-primary">Category List</h2>
+        </div>
+        <div class="col-6">
+            <a asp-controller="Category" asp-action="Create" class="btn btn-primary" style="background-color:antiquewhite">
+                <i class="bi bi-plus-circle" style="color:black;font-weight:500"> Create New Category</i>
+            </a>
+        </div>
+    </div>
+</div>
+
+<table class="table table-light table-striped" style="width:70%">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>DisplayOrder</th>
+            <th/>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td width="30%">@item.Name</td>
+                <td width="30%">@item.DisplayOrder</td>
+                <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-controller="Category" class="btn btn-danger" asp-action="Edit" 
+                            asp-route-id="@item.Id" style="width:50px;font-style:italic;font-weight:400;background-color:cadetblue">
+                                <i class="bi bi-pencil-square"> Edit</i>
+                        </a>
+                        <button asp-controller ="Category" class="btn btn-danger" style="width:50px;font-style:italic;font-weight:400"
+                                onclick="if(confirm('Are you sure you want to delete this item?'))
+                            { window.location.href = '@Url.Action("Delete", new { id = @item.Id })'; }">
+                            <i class="bi bi-x-circle"></i> Delete
+                                @*Nếu người dùng xác nhận xóa, thì chúng ta sử dụng window.location.href
+                            để chuyển hướng đến đường dẫn của hành động "Delete" trong controller, 
+                            với tham số id được truyền vào từ biến @item.Id. Chúng ta cũng sử dụng thẻ <i>
+                            để tạo biểu tượng x-circle, và đặt nó cùng với nội dung văn bản "Delete" trong thẻ <button>*@
+                        </button>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,28 @@
+﻿@if(TempData["success"] != null) 
+{
+    @*
+        Toastr:Library js cung cấp các thông báo đẹp mắt https://github.com/CodeSeven/toastr
+    jQuery được thêm vào để hỗ trợ cho việc sử dụng thư viện toastr.js
+    Toastr.js sử dụng jQuery như một phần của chức năng của nó để chọn phần tử HTML trên trang web và thay đổi nội dung của chúng
+    Nếu bạn không bao gồm thư viện jQuery trước khi sử dụng toastr.js, các hàm của toastr.js sẽ không hoạt động đúng cách.      *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.success('@TempData["success"]');
+    </script>
+    <style>
+        #toast-container {
+            top: 60px !important;
+        }
+    </style>
+}
+
+@if(TempData["error"] != null)
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    @*<h2>@TempData["error"]</h2>*@
+    <script type="text/javascript">
+        toastr.error('@TempData["error"]');
+    </script>
+}

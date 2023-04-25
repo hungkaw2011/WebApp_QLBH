@@ -1,0 +1,17 @@
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\bin\Debug\net7.0\WebApp.DataAccess.deps.json
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\bin\Debug\net7.0\WebApp.DataAccess.runtimeconfig.json
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\bin\Debug\net7.0\WebApp.DataAccess.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\bin\Debug\net7.0\WebApp.DataAccess.pdb
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\bin\Debug\net7.0\WebApp.Models.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\bin\Debug\net7.0\WebApp.Models.pdb
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\WebApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\WebApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\WebApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\WebApp.DataAccess.AssemblyInfo.cs
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\WebApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\WebApp.DataAccess.csproj.CopyComplete
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\WebApp.DataAccess.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\refint\WebApp.DataAccess.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\WebApp.DataAccess.pdb
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\WebApp.DataAccess.genruntimeconfig.cache
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebApp.DataAccess\obj\Debug\net7.0\ref\WebApp.DataAccess.dll

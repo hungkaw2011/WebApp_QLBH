@@ -1,0 +1,14 @@
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\bin\Debug\netcoreapp3.1\VuHoaiNam_oop.exe
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\bin\Debug\netcoreapp3.1\VuHoaiNam_oop.deps.json
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\bin\Debug\netcoreapp3.1\VuHoaiNam_oop.runtimeconfig.json
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\bin\Debug\netcoreapp3.1\VuHoaiNam_oop.runtimeconfig.dev.json
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\bin\Debug\netcoreapp3.1\VuHoaiNam_oop.dll
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\bin\Debug\netcoreapp3.1\VuHoaiNam_oop.pdb
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\obj\Debug\netcoreapp3.1\VuHoaiNam_oop.csproj.AssemblyReference.cache
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\obj\Debug\netcoreapp3.1\VuHoaiNam_oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\obj\Debug\netcoreapp3.1\VuHoaiNam_oop.AssemblyInfoInputs.cache
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\obj\Debug\netcoreapp3.1\VuHoaiNam_oop.AssemblyInfo.cs
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\obj\Debug\netcoreapp3.1\VuHoaiNam_oop.csproj.CoreCompileInputs.cache
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\obj\Debug\netcoreapp3.1\VuHoaiNam_oop.dll
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\obj\Debug\netcoreapp3.1\VuHoaiNam_oop.pdb
+C:\Users\vuvu4\OneDrive\Tài liệu\C#\BtTuan4\VuHoaiNam_oop\VuHoaiNam_oop\obj\Debug\netcoreapp3.1\VuHoaiNam_oop.genruntimeconfig.cache

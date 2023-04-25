@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebApp.DataAccess;
 
@@ -11,9 +12,11 @@ using WebApp.DataAccess;
 namespace WebApp.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230424214240_AddForeignKeyCategoryProductRelation")]
+    partial class AddForeignKeyCategoryProductRelation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,21 +51,21 @@ namespace WebApp.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDateTime = new DateTime(2023, 4, 25, 4, 47, 21, 55, DateTimeKind.Local).AddTicks(3804),
+                            CreatedDateTime = new DateTime(2023, 4, 25, 4, 42, 40, 554, DateTimeKind.Local).AddTicks(5279),
                             DisplayOrder = 1,
                             Name = "Action"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDateTime = new DateTime(2023, 4, 25, 4, 47, 21, 55, DateTimeKind.Local).AddTicks(3820),
+                            CreatedDateTime = new DateTime(2023, 4, 25, 4, 42, 40, 554, DateTimeKind.Local).AddTicks(5287),
                             DisplayOrder = 2,
                             Name = "Scifi"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDateTime = new DateTime(2023, 4, 25, 4, 47, 21, 55, DateTimeKind.Local).AddTicks(3821),
+                            CreatedDateTime = new DateTime(2023, 4, 25, 4, 42, 40, 554, DateTimeKind.Local).AddTicks(5288),
                             DisplayOrder = 3,
                             Name = "History"
                         });
@@ -88,9 +91,6 @@ namespace WebApp.DataAccess.Migrations
 
                     b.Property<string>("ISBN")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("ListPrice")
@@ -123,7 +123,6 @@ namespace WebApp.DataAccess.Migrations
                             CategoryId = 1,
                             Description = "Windows 11 is the latest major release of Microsoft's Windows NT operating system, released in October 2021.",
                             ISBN = "WD2021",
-                            ImageUrl = "",
                             ListPrice = 99.0,
                             Price = 90.0,
                             Price100 = 80.0,
@@ -137,7 +136,6 @@ namespace WebApp.DataAccess.Migrations
                             CategoryId = 2,
                             Description = "Linux is a family of open-source Unix-like operating systems based on the Linux kernel.",
                             ISBN = "LN2021",
-                            ImageUrl = "",
                             ListPrice = 99.0,
                             Price = 70.0,
                             Price100 = 80.0,

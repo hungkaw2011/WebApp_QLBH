@@ -32,7 +32,9 @@ namespace WebApp.DataAccess
                     ListPrice = 99,
                     Price = 90,
                     Price50 = 85,
-                    Price100 = 80
+                    Price100 = 80,
+                    CategoryId = 1,
+                    ImageUrl=""
                 },
                 new Product
                 {
@@ -44,9 +46,11 @@ namespace WebApp.DataAccess
                     ListPrice = 99,
                     Price = 70,
                     Price50 = 85,
-                    Price100 = 80
-                }
-                ); ;
+                    Price100 = 80,
+					CategoryId = 2,
+					ImageUrl = ""
+				}
+				); ;
         }
     }
 }

@@ -3,6 +3,9 @@ using WebApp.DataAccess.Repository.IRepository;
 using WebApp.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using WebApp.Models.ViewModels;
 
 namespace WebApp.Areas.Admin.Controllers
 {
@@ -18,62 +21,68 @@ namespace WebApp.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Product> objCategoryList = _unitOfWork.Product.GetAll();
-            return View(objCategoryList);
+            IEnumerable<Product> objProductList = _unitOfWork.Product.GetAll();
+            return View(objProductList);
         }
 
         //GET
-        public IActionResult Create()
+        public IActionResult Upsert(int? id)
         {
-            return View();
-        }
-
-        //POST
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Create(Product productObj)
-        {
-            if (ModelState.IsValid)
+            //ViewBag.CategoryList = CategoryList;
+#pragma warning disable IDE0090 // Use 'new(...)'
+            ProductVM productVM = new ProductVM()
             {
-                _unitOfWork.Product.Add(productObj);
-                _unitOfWork.Save();
-                TempData["success"] = "Product Added Successfully";
-                return RedirectToAction("Index");
-            }
-            return View(productObj);
-        }
-
-        //GET
-        public IActionResult Edit(int? id)
-        {
+                CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                }),
+                Product = new Product()
+            };
+#pragma warning restore IDE0090 // Use 'new(...)'
             if (id == null || id == 0)
             {
-                return NotFound();
+                //Create
+                return View(productVM);
             }
-            var categoryFromDb = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
-            // var categoryFromDb = _db.Categories.FirstOrDefault(u=>u.Id==id);
-            // var categoryFromDb = _db.Categories.SingleOrDefault(u=>u.Id==id);
-
-            if (categoryFromDb == null)
+            else
             {
-                return NotFound();
+                //Update
+                productVM.Product=_unitOfWork.Product.GetFirstOrDefault(u=>u.Id == id);
+                return View(productVM);
             }
-            return View(categoryFromDb);
         }
 
         //POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit(Product productObj)
+        public IActionResult Upsert(ProductVM productObj,IFormFile? file)
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.Product.Update(productObj);
-                _unitOfWork.Save();
-                TempData["success"] = "Product Updated Successfully";
+                if (productObj.Product!.Id == 0)
+                {
+                    _unitOfWork.Product.Add(productObj.Product);
+                    _unitOfWork.Save();
+                    TempData["success"] = "Product Added Successfully";
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(productObj.Product);
+                    _unitOfWork.Save();
+                    TempData["success"] = "Product Updated Successfully";
+                }
                 return RedirectToAction("Index");
             }
-            return View(productObj);
+            else
+            {
+                productObj.CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+                return View(productObj);
+            }
         }
 
         //GET

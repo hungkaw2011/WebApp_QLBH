@@ -576,3 +576,5 @@ C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\obj\Debug\net7.0\refin
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\obj\Debug\net7.0\WebAppQLBH.pdb
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\obj\Debug\net7.0\WebAppQLBH.genruntimeconfig.cache
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\obj\Debug\net7.0\ref\WebAppQLBH.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

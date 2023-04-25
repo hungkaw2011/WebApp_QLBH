@@ -7,9 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppQLBH", "WebAppQLBH\We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.DataAccess", "WebApp.DataAccess\WebApp.DataAccess.csproj", "{1837BEF3-3450-42D5-B40E-4776B0E05BB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Models", "WebAppQLBH.Models\WebApp.Models.csproj", "{0E8A2535-485B-41CE-AA55-BF31B84B1328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Models", "WebAppQLBH.Models\WebApp.Models.csproj", "{0E8A2535-485B-41CE-AA55-BF31B84B1328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Utility", "WebApp.Utility\WebApp.Utility.csproj", "{269225CD-38EE-4CCF-AA5E-776F20A8D00A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Utility", "WebApp.Utility\WebApp.Utility.csproj", "{269225CD-38EE-4CCF-AA5E-776F20A8D00A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9D06E7A-1699-4ACF-9A83-0B1F03E60DCA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

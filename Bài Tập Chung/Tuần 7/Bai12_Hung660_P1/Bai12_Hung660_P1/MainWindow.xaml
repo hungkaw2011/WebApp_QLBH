@@ -1,0 +1,171 @@
+﻿<Window x:Class="Bai12_Hung660_P1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bai12_Hung660_P1"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="450" Width="900">
+    <Grid Margin="10">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="250"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Row="0">
+                <Label Content="Thông Tin Hóa Đơn"
+                       Foreground="blue"
+                       FontStyle="Normal"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Center"
+                       ></Label>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="0">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Tên Đăng Nhập:" 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="tb_idlogin" Width="120" Margin="5"
+                             IsEnabled="False"
+                             VerticalContentAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="SDT Khách hàng:     " 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="tb_phone" Width="150" Margin="5"
+                             VerticalContentAlignment="Center"/>
+                </StackPanel> 
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Họ Tên Khách hàng:" 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="tb_name" Width="160" Margin="5"
+                             VerticalContentAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="2">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Số hóa đơn:" 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="tb_idhoadon" Width="150" Margin="5"
+                             VerticalContentAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="2">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Ngày lập:" 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="tb_date" Width="150" Margin="5"
+                             IsEnabled="False"
+                             VerticalContentAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Grid.Column="0">
+                <Label Content="Hàng Mua:"
+                       Foreground="blue"
+                       FontStyle="Normal"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Center"
+                       ></Label>
+            </Grid>
+            <Grid Grid.Row="1">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Mã Hàng:" 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="tb_idproduct" Width="100" Margin="5" Height="30"
+                             VerticalContentAlignment="Center"/>
+                    <Label Content="Số Lượng:" 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="tb_amountproduct" Width="100" Margin="5" Height="30"
+                             VerticalContentAlignment="Center"/>
+                    <Button Content=">>" Height="30" Width="50"
+                            Click="btn_addProduct"
+                            Background="White"></Button>
+                </StackPanel>
+                
+            </Grid>
+            <Grid Grid.Row="2">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Tên Hàng:" 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="tb_nameproduct" Width="200" Margin="5" Height="30"
+                             VerticalContentAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Row="3">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Đơn Giá:" 
+                           VerticalContentAlignment="Center"
+                           HorizontalContentAlignment="Center"/>
+                    <TextBox x:Name="tb_priceproduct" Width="100" Margin="5" Height="30"
+                             VerticalContentAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1" Grid.RowSpan="4" Margin="10">
+                <DataGrid IsReadOnly="True"
+                          x:Name="dg_Product"
+                          AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Mã Hàng" Width="70" Binding="{Binding idproduct}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Tên Hàng" Width="90" Binding="{Binding nameproduct}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Đơn Giá" Width="70" Binding="{Binding priceproduct}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Số Lượng" Width="70" Binding="{Binding amountproduct}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Thành Tiền" Width="90" Binding="{Binding total}"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Xóa" Width="*" Binding="{Binding idproductdel}"></DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="2">
+            <Button Content="Lưu hóa đơn" Height="30" Width="100" Click="btn_save" x:Name="savedata">
+                <Button.Resources >
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5"></Setter>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

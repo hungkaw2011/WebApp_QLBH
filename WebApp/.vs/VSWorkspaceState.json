@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebApp.DataAccess",
+    "\\WebApp.DataAccess\\Repository",
+    "\\WebAppQLBH",
+    "\\WebAppQLBH\\Areas",
+    "\\WebAppQLBH\\Areas\\Admin",
+    "\\WebAppQLBH\\Areas\\Admin\\Controllers",
+    "\\WebAppQLBH\\Areas\\Admin\\Views",
+    "\\WebAppQLBH\\Areas\\Admin\\Views\\Product",
+    "\\WebAppQLBH\\Views",
+    "\\WebAppQLBH\\Views\\Shared"
+  ],
+  "SelectedNode": "\\WebAppQLBH\\Areas\\Admin\\Controllers\\ProductController.cs",
+  "PreviewInSolutionExplorer": false
+}

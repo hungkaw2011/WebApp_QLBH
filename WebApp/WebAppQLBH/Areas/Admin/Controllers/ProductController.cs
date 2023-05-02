@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using WebApp.Models.ViewModels;
+using NuGet.Protocol.Plugins;
+using Microsoft.Extensions.Hosting;
 
 namespace WebApp.Areas.Admin.Controllers
 {
@@ -116,47 +118,32 @@ namespace WebApp.Areas.Admin.Controllers
             }
         }
 
-        //GET
-        public IActionResult Delete(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            // var categoryFromDb = _db.Categories.Find(id);
-            var productFromDb = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
-            // var categoryFromDb = _db.Categories.SingleOrDefault(u=>u.Id==id);
-
-            if (productFromDb == null)
-            {
-                return NotFound();
-            }
-            return View(productFromDb);
-        }
-
-        //POST
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public IActionResult DeletePOST(int? id)
-        {
-            var obj = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
-            if (obj == null)
-            {
-                return NotFound();
-            }
-
-            _unitOfWork.Product.Remove(obj);
-            _unitOfWork.Save();
-            TempData["success"] = "Product Deleted Successfully";
-            return RedirectToAction("Index");
-
-        }
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll() { 
             var objProductList = _unitOfWork.Product.GetAll(includeProperties:"Category");
             return Json(new {data= objProductList});
         }
-        #endregion
-}
+        [HttpDelete]
+		public IActionResult Delete(int? id)
+		{
+			var obj = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
+			if (obj == null)
+			{
+				return Json(new { success = false, message = "Error while deleting" });
+			}
+            if (obj!.ImageUrl != null)
+            {
+				var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, obj.ImageUrl!.TrimStart('\\'));
+				if (System.IO.File.Exists(oldImagePath))
+				{
+					System.IO.File.Delete(oldImagePath);
+				}
+			}
+			_unitOfWork.Product.Remove(obj);
+			_unitOfWork.Save();
+			return Json(new { success = true, message = "Deleted Successfully" });
+		}
+		#endregion
+	}
 }

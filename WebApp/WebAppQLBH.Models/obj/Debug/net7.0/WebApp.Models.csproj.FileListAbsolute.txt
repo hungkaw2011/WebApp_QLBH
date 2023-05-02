@@ -10,3 +10,15 @@ C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH.Models\obj\Debug\net7.
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\refint\WebApp.Models.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\WebApp.Models.pdb
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\ref\WebApp.Models.dll
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\bin\Debug\net7.0\WebApp.Models.deps.json
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\bin\Debug\net7.0\WebApp.Models.dll
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\bin\Debug\net7.0\WebApp.Models.pdb
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\WebApp.Models.csproj.AssemblyReference.cache
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\WebApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\WebApp.Models.AssemblyInfoInputs.cache
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\WebApp.Models.AssemblyInfo.cs
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\WebApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\WebApp.Models.dll
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\refint\WebApp.Models.dll
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\WebApp.Models.pdb
+C:\Users\hungq\Downloads\WebApp_QLBH-HungKaw\WebApp\WebAppQLBH.Models\obj\Debug\net7.0\ref\WebApp.Models.dll

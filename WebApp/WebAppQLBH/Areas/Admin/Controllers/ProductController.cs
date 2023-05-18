@@ -131,7 +131,7 @@ namespace WebApp.Areas.Admin.Controllers
 			if (obj == null)
 			{
 				return Json(new { success = false, message = "Error while deleting" });
-			}
+			} 
             if (obj!.ImageUrl != null)
             {
 				var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, obj.ImageUrl!.TrimStart('\\'));

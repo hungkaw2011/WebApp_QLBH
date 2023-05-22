@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebApp.DataAccess.Repository.IRepository;
 
+
 namespace WebApp.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
@@ -28,9 +29,10 @@ namespace WebApp.DataAccess.Repository
 
         public IEnumerable<T> GetAll(string? includeProperties = null)
         {
-            IQueryable<T> query = dbSet;
+            IQueryable<T> query = dbSet.AsQueryable().AsNoTracking();
             if (!string.IsNullOrEmpty(includeProperties))
             {
+                //Join table với Include có từ ET Net 6 (Eager loading)
                 foreach (var includeProp in includeProperties
                     .Split(new char[] {','},StringSplitOptions.RemoveEmptyEntries))
                 {
@@ -42,19 +44,17 @@ namespace WebApp.DataAccess.Repository
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter, string? includeProperties = null)
         {
-            IQueryable<T> query=dbSet;
-            query=query.Where(filter);
+            IQueryable<T> query=dbSet.AsQueryable().AsNoTracking();
             if (!string.IsNullOrEmpty(includeProperties))
             {
+                //Join table với Include có từ ET Net 6 (Eager loading)
                 foreach (var includeProp in includeProperties
                     .Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries))
                 {
                     query = query.Include(includeProp);
                 }
             }
-#pragma warning disable CS8603 // Possible null reference return.
-            return query.FirstOrDefault();
-#pragma warning restore CS8603 // Possible null reference return.
+            return query.Where(filter).FirstOrDefault()!;
         }
 
         public void Remove(T entity)

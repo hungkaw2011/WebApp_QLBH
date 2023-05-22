@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3kyAujjUbcgMrYZce96F9ges01UnE1/F22TZvDxAbPQ=",
+  "Hash": "ccvjvWElkDrY7GiwqpxvwK7tfMPTa/2dshGSCoNBRVE=",
   "Source": "WebAppQLBH",
   "BasePath": "_content/WebAppQLBH",
   "Mode": "Default",
@@ -1122,23 +1122,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\116dfaca-6b23-427f-aefd-94e497a37d2c.docx",
-      "SourceId": "WebAppQLBH",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\",
-      "BasePath": "_content/WebAppQLBH",
-      "RelativePath": "images/product/116dfaca-6b23-427f-aefd-94e497a37d2c.docx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\116dfaca-6b23-427f-aefd-94e497a37d2c.docx"
-    },
-    {
       "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\1a5ed029-75a1-42de-93c7-5463ff501f89.png",
       "SourceId": "WebAppQLBH",
       "SourceType": "Discovered",
@@ -1222,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\dab6b534-9e04-4bee-9686-9579c1053b05.png"
+    },
+    {
+      "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\company.js",
+      "SourceId": "WebAppQLBH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\",
+      "BasePath": "_content/WebAppQLBH",
+      "RelativePath": "js/company.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\company.js"
     },
     {
       "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\product.js",

@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\116dfaca-6b23-427f-aefd-94e497a37d2c.docx",
-      "PackagePath": "staticwebassets\\images\\product\\116dfaca-6b23-427f-aefd-94e497a37d2c.docx"
-    },
-    {
       "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\1a5ed029-75a1-42de-93c7-5463ff501f89.png",
       "PackagePath": "staticwebassets\\images\\product\\1a5ed029-75a1-42de-93c7-5463ff501f89.png"
     },
@@ -39,6 +35,10 @@
     {
       "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\dab6b534-9e04-4bee-9686-9579c1053b05.png",
       "PackagePath": "staticwebassets\\images\\product\\dab6b534-9e04-4bee-9686-9579c1053b05.png"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
     },
     {
       "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\product.js",

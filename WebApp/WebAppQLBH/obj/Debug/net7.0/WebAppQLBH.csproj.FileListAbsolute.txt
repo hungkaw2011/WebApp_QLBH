@@ -1161,3 +1161,5 @@ C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Micro
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\WebApp.Utility.dll
+C:\Users\hungq\source\repos\WebApp_QLBH\WebApp\WebAppQLBH\bin\Debug\net7.0\WebApp.Utility.pdb

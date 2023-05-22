@@ -4465,13 +4465,27 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "7.0.5"
         },
         "compile": {
           "bin/placeholder/WebApp.Models.dll": {}
         },
         "runtime": {
           "bin/placeholder/WebApp.Models.dll": {}
+        }
+      },
+      "WebApp.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.5"
+        },
+        "compile": {
+          "bin/placeholder/WebApp.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebApp.Utility.dll": {}
         }
       }
     }
@@ -12185,6 +12199,11 @@
       "type": "project",
       "path": "../WebAppQLBH.Models/WebApp.Models.csproj",
       "msbuildProject": "../WebAppQLBH.Models/WebApp.Models.csproj"
+    },
+    "WebApp.Utility/1.0.0": {
+      "type": "project",
+      "path": "../WebApp.Utility/WebApp.Utility.csproj",
+      "msbuildProject": "../WebApp.Utility/WebApp.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12196,7 +12215,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.6",
-      "WebApp.DataAccess >= 1.0.0"
+      "WebApp.DataAccess >= 1.0.0",
+      "WebApp.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12236,6 +12256,9 @@
           "projectReferences": {
             "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebApp.DataAccess\\WebApp.DataAccess.csproj": {
               "projectPath": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebApp.DataAccess\\WebApp.DataAccess.csproj"
+            },
+            "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebApp.Utility\\WebApp.Utility.csproj": {
+              "projectPath": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebApp.Utility\\WebApp.Utility.csproj"
             }
           }
         }

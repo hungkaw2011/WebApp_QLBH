@@ -18,7 +18,6 @@ namespace WebApp.Areas.Customer.Controllers
 			_logger = logger;
 			_unitOfWork = unitOfWork;
 		}
-
 		public IActionResult Index()
 		{
 			IEnumerable<Product> productList=_unitOfWork.Product.GetAll(includeProperties:"Category");

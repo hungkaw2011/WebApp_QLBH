@@ -37,12 +37,264 @@
       "PackagePath": "staticwebassets\\images\\product\\dab6b534-9e04-4bee-9686-9579c1053b05.png"
     },
     {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\company.js",
+      "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
       "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
       "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\langs\\README.md",
+      "PackagePath": "staticwebassets\\js\\tinymce\\langs\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\js\\tinymce\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\models\\dom\\model.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\models\\dom\\model.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\js\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\tinymce.min.js"
     },
     {
       "Id": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\lib\\bootstrap\\LICENSE",

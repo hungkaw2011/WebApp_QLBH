@@ -30,7 +30,7 @@ namespace WebApp.Areas.Admin.Controllers
         {
             return View();
         }
-
+        #region CRUD
         //GET
         [HttpGet]
         public IActionResult Upsert(int? id)
@@ -45,7 +45,6 @@ namespace WebApp.Areas.Admin.Controllers
                 }),
                 Product = new Product()
             };
-#pragma warning restore IDE0090 // Use 'new(...)'
             if (id == null || id == 0)
             {
                 //Create
@@ -117,7 +116,7 @@ namespace WebApp.Areas.Admin.Controllers
                 return View(productObj);
             }
         }
-
+        #endregion
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll() { 
@@ -131,7 +130,7 @@ namespace WebApp.Areas.Admin.Controllers
 			if (obj == null)
 			{
 				return Json(new { success = false, message = "Error while deleting" });
-			}
+			} 
             if (obj!.ImageUrl != null)
             {
 				var oldImagePath = Path.Combine(_webHostEnvironment.WebRootPath, obj.ImageUrl!.TrimStart('\\'));

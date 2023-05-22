@@ -119,8 +119,10 @@ namespace WebAppQLBH.Areas.Identity.Pages.Account
                 }
                 if (result.RequiresTwoFactor)
                 {
-                    return RedirectToPage("./LoginWith2fa", new { ReturnUrl = returnUrl, RememberMe = Input.RememberMe });
-                }
+#pragma warning disable IDE0037 // Use inferred member name
+					return RedirectToPage("./LoginWith2fa", new { ReturnUrl = returnUrl, RememberMe = Input.RememberMe });
+#pragma warning restore IDE0037 // Use inferred member name
+				}
                 if (result.IsLockedOut)
                 {
                     _logger.LogWarning("User account locked out.");

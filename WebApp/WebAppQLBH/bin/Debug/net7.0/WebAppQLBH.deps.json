@@ -43,6 +43,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "7.0.6",
           "WebApp.DataAccess": "1.0.0",
+          "WebApp.Utility": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "7.0.0.0",
@@ -3211,13 +3212,25 @@
       "WebApp.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "7.0.5"
         },
         "runtime": {
           "WebApp.Models.dll": {}
         },
         "compile": {
           "WebApp.Models.dll": {}
+        }
+      },
+      "WebApp.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "7.0.5"
+        },
+        "runtime": {
+          "WebApp.Utility.dll": {}
+        },
+        "compile": {
+          "WebApp.Utility.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery.Reference/7.0.0.0": {
@@ -6548,6 +6561,11 @@
       "sha512": ""
     },
     "WebApp.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebApp.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

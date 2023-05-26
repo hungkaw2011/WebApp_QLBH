@@ -254,21 +254,21 @@ namespace WebApp.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDateTime = new DateTime(2023, 5, 19, 21, 15, 27, 882, DateTimeKind.Local).AddTicks(720),
+                            CreatedDateTime = new DateTime(2023, 5, 26, 1, 43, 43, 771, DateTimeKind.Local).AddTicks(3861),
                             DisplayOrder = 1,
                             Name = "Action"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDateTime = new DateTime(2023, 5, 19, 21, 15, 27, 882, DateTimeKind.Local).AddTicks(732),
+                            CreatedDateTime = new DateTime(2023, 5, 26, 1, 43, 43, 771, DateTimeKind.Local).AddTicks(3872),
                             DisplayOrder = 2,
                             Name = "Scifi"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDateTime = new DateTime(2023, 5, 19, 21, 15, 27, 882, DateTimeKind.Local).AddTicks(733),
+                            CreatedDateTime = new DateTime(2023, 5, 26, 1, 43, 43, 771, DateTimeKind.Local).AddTicks(3874),
                             DisplayOrder = 3,
                             Name = "History"
                         });
@@ -384,12 +384,42 @@ namespace WebApp.DataAccess.Migrations
                         });
                 });
 
+            modelBuilder.Entity("WebApp.Models.ShoppingCard", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ApplicationUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApplicationUserId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ShoppingCards");
+                });
+
             modelBuilder.Entity("WebApp.Models.ApplicationUser", b =>
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("CompanyId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -403,6 +433,8 @@ namespace WebApp.DataAccess.Migrations
 
                     b.Property<string>("StreetAddress")
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("CompanyId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -467,6 +499,34 @@ namespace WebApp.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("WebApp.Models.ShoppingCard", b =>
+                {
+                    b.HasOne("WebApp.Models.ApplicationUser", "ApplicationUser")
+                        .WithMany()
+                        .HasForeignKey("ApplicationUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApp.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("WebApp.Models.ApplicationUser", b =>
+                {
+                    b.HasOne("WebApp.Models.Company", "Company")
+                        .WithMany()
+                        .HasForeignKey("CompanyId");
+
+                    b.Navigation("Company");
                 });
 #pragma warning restore 612, 618
         }

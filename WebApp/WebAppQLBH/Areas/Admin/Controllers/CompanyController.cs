@@ -44,15 +44,6 @@ namespace WebApp.Areas.Admin.Controllers
                 return View(company);
             }
         }
-        /// <summary>
-        ///     String fileName=Guid.NewGuid().ToString()+Path.GetExtension(file.FileName);
-        ///     Tạo ra một chuỗi định danh duy nhất được sử dụng làm tên file
-        //      Ví dụ: Nếu file.FileName là "product_image.jpg", Guid.NewGuid().ToString()+Path.GetExtension(file.FileName)
-        //      Có thể trả về chuỗi "f8dd1a1b-6d9a-4f67-a8a8-246c2ee0d97a.jpg", là tên file mới được tạo ra để lưu trữ hình ảnh sản phẩm.
-        /// </summary>
-        /// <param name="productObj"></param>
-        /// <param name="file"></param>
-        /// <returns></returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Company companyObj)

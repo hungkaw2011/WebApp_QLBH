@@ -7,7 +7,7 @@ $(document).ready(function () {
 function loadDataTable() {
     dataTable = $('#tblData').DataTable({
         "ajax": {
-            "url": "/Admin/Company/GetAll"
+            "url": "/admin/company/getall"
         },
         "columns": [
             { "data": "name", "width": "15%" },
@@ -21,10 +21,10 @@ function loadDataTable() {
                     return `
                     <div class="w-75 btn-group" role="group" >
                         <div style="display:inline-block;vertical-align: middle;">
-                            <a href = "/admin/product/upsert?id=${data}" class="btn btn-primary mx-2 rounded" style="width:100px"><i class="bi bi-pencil-square"></i> Edit</a >
+                            <a href = "/admin/company/upsert?id=${data}" class="btn btn-primary mx-2 rounded" style="width:100px"><i class="bi bi-pencil-square"></i> Edit</a >
                         </div>
                         <div style="display:inline-block;vertical-align: middle;">
-                            <a onClick = Delete('/admin/product/delete/${data}') class="btn btn-danger mx-2 rounded" style="width:100px"><i class="bi bi-trash-fill"></i> Delete</a>
+                            <a onClick = Delete('/admin/company/delete/${data}') class="btn btn-danger mx-2 rounded" style="width:100px"><i class="bi bi-trash-fill"></i> Delete</a>
                         </div>
                     </div >`
                 },
@@ -37,7 +37,7 @@ function loadDataTable() {
 function Delete(url) {
     Swal.fire({
         title: 'Are you sure?',
-        text: "You won't be able to revert this!",
+        text: "You won't be able to revertt this!",
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',

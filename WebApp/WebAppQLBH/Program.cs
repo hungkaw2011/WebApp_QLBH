@@ -17,11 +17,22 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
     ));
 
 //Cấu hình Identity phân loại Role để quản lý login và xác thực người dùng=>Lưu trữ dữ liệu người dùng(AddEntityFrameworkStores)
-builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
+builder.Services.ConfigureApplicationCookie(options => {
+    options.LoginPath = $"/Identity/Account/Login";
+    options.LogoutPath = $"/Identity/Account/Logout";
+    options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+});
 
-//Tính năng Razor Runtime Compilation cho phép bạn chỉnh sửa trang Razor Pages mà không cần phải khởi động lại ứng dụng => (lag).
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddRazorPages();
+
+/*  Đăng ký (register) các dịch vụ (services) với DI container. 
+ *  Giúp DI container biết cách tạo ra các đối tượng và giải quyết các phụ thuộc khi được yêu cầu.
+ *  Đăng ký một dịch vụ có kiểu IUnitOfWork với DI container. 
+ *  Khi có yêu cầu tiêm phụ thuộc vào một đối tượng có kiểu IUnitOfWork,
+ *  DI container sẽ cung cấp một đối tượng UnitOfWork tương ứng.*/
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
 var app = builder.Build();

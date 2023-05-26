@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ccvjvWElkDrY7GiwqpxvwK7tfMPTa/2dshGSCoNBRVE=",
+  "Hash": "PfvNAGfUghF5B7x+U2MF4RKlpqs8NzJ7uAEzIz2j1yc=",
   "Source": "WebAppQLBH",
   "BasePath": "_content/WebAppQLBH",
   "Mode": "Default",
@@ -1156,12 +1156,12 @@
       "OriginalItemSpec": "wwwroot\\images\\product\\20180355-4321-4588-9059-d695d38fc23e.png"
     },
     {
-      "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\3a801a21-6e21-41bf-b74f-faa7a093f373.png",
+      "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\2a0b7b4a-0d1f-42eb-9b82-af3da1c2524c.webp",
       "SourceId": "WebAppQLBH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\",
       "BasePath": "_content/WebAppQLBH",
-      "RelativePath": "images/product/3a801a21-6e21-41bf-b74f-faa7a093f373.png",
+      "RelativePath": "images/product/2a0b7b4a-0d1f-42eb-9b82-af3da1c2524c.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1170,15 +1170,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\3a801a21-6e21-41bf-b74f-faa7a093f373.png"
+      "OriginalItemSpec": "wwwroot\\images\\product\\2a0b7b4a-0d1f-42eb-9b82-af3da1c2524c.webp"
     },
     {
-      "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\6565919c-3654-4182-bb58-2fb993f3fad9.png",
+      "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\3f3b7a54-1422-4c2a-90e8-ce45ed260bb6.webp",
       "SourceId": "WebAppQLBH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\",
       "BasePath": "_content/WebAppQLBH",
-      "RelativePath": "images/product/6565919c-3654-4182-bb58-2fb993f3fad9.png",
+      "RelativePath": "images/product/3f3b7a54-1422-4c2a-90e8-ce45ed260bb6.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,15 +1187,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\6565919c-3654-4182-bb58-2fb993f3fad9.png"
+      "OriginalItemSpec": "wwwroot\\images\\product\\3f3b7a54-1422-4c2a-90e8-ce45ed260bb6.webp"
     },
     {
-      "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\dab6b534-9e04-4bee-9686-9579c1053b05.png",
+      "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\images\\product\\bbec274d-23b4-453b-bbac-8fde47004cc5.webp",
       "SourceId": "WebAppQLBH",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\",
       "BasePath": "_content/WebAppQLBH",
-      "RelativePath": "images/product/dab6b534-9e04-4bee-9686-9579c1053b05.png",
+      "RelativePath": "images/product/bbec274d-23b4-453b-bbac-8fde47004cc5.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,7 +1204,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\product\\dab6b534-9e04-4bee-9686-9579c1053b05.png"
+      "OriginalItemSpec": "wwwroot\\images\\product\\bbec274d-23b4-453b-bbac-8fde47004cc5.webp"
     },
     {
       "Identity": "C:\\Users\\hungq\\source\\repos\\WebApp_QLBH\\WebApp\\WebAppQLBH\\wwwroot\\js\\company.js",

@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace WebApp.DataAccess.Repository.IRepository
 {
-	public interface IUnitOfWork
-	{
-		ICategoryRepository Category { get; }
-		IProductRepository Product { get; }
-		ICompanyRepository Company { get; }
+    public interface IUnitOfWork
+    {
+        ICategoryRepository Category { get; }
+        IProductRepository Product { get; }
+        ICompanyRepository Company { get; }
+        IShoppingCardRepository ShoppingCard { get; }
         void Save();
-	}
+    }
 }

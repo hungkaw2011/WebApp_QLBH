@@ -1,4 +1,4 @@
-# WebApp.
+# WebApp
 Ví dụ về triển khai Unit of Work Pattern.
 
 * Dự án này có các ví dụ sử dụng Entity Framework Core, tích hợp việc sử dụng Repository Pattern + Unit of Work Pattern.

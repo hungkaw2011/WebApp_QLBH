@@ -9,7 +9,7 @@ Ví dụ về triển khai Unit of Work Pattern.
 * ASP.NET Core 7
 * Repository Pattern
 * Unit of Work
-* Entity Framework Core 7.0.5
+* Entity Framework Core 7
 * Identity
 
 
